@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            
+            html, body {
+                font-size: 14px;
+                color: #ddd;
+                font-family: 'Source Sans Pro';
+            }
+            
+            .pogi {
+                position: relative;
+                height: 100vh;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 48px;
+                z-index: 570;
+            }
+            
+            .nav {
+                display: flex;
+                align-items: center;
+            }
+            
+            .nav > .title {
+                font-size: 20px;
+            }
+            
+            .nav > .title > .mnl {
+                color: #ddd;
+            }
+            
+            .nav > .title > .css {
+                color: blue;
+            }
+            
+            .nav > .title > .brackets {
+                color: yellow;
+            }
+            
+            .nav > .title {
+                margin-right: 160px;
+            }
+            
+            .nav > .eksdi {
+                color: #ddd;
+            }
+            
+            .datex {
+                margin-top: 120px;
+                padding: 24px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+            
+            .datex > .month {
+                margin-bottom: 8px;
+                font-weight: bold;
+            }
+            
+            .datex > .count {
+                color: blue;
+                letter-spacing: 0.5;
+                font-size: 18px;
+            }
+            
+            .jumbotron > .title {
+                mrgin-bottom: 32px;
+                font-weight: 600;
+                font-size: 48px;
+                letter-spacing: 0.5;
+            }
+            
+            .jumbotron > .lina {
+                width: 32px;
+                height: 2px;
+                background: #ddd;
+                margin-bottom: 32px;
+            }
+            
+            .jumbotron > .text1 {
+                font-weight: bold;
+                margin-bottom: 16px;
+            }
+            
+            .jumbotron > .text2 {
+                
+            }
+            
+            .kiersuperpogi {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 160px;
+                width: 160px;
+                background: linear-gradient(to bottom, blue, red);
+                z-index: 569;
+            }
+            
+            .kiersuperpogi > .whitney {
+                height: 40px;
+                width: 40px;
+                background: #fff;
+            }
+            
+            .kiersuperpogi:first-child {
+                top: -50%;
+                right: 320px;
+            }
+            
+            .kiersuperpogi:nth-child(2) {
+                bottom: 80px;
+                right: -25%;
+            }
+            
+            .kiersuperpogi:nth-child(3) {
+                top: 50%;
+                left: -50%;
+            }
+            
+            .register {
+                position: absolute;
+                top: 50%;
+                left: 75%;
+                height: 48px;
+                padding-left: 16px;
+                padding-right: 16px;
+                color: #fff;
+                background: blue;
+            }
+            
+            .register-line {
+                position: absolute;
+                top: 400px;
+                left: 50%;
+                height: 1px;
+                width: 320px;
+                background: #ddd;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="pogi">
+            <div class="nav">
+                <div class="title">
+                    <span class="mnl">Manila</span>
+                    <span class="css">CSS</span>
+                    <span class="brackets">{}</span>
+                </div>
+                <div class="eksdi">
+                    Meetups
+                </div>
+            </div>
+        </div>
+        
+        <div class="datex">
+            <div class="month">Nov</div>
+            <div class="count">69</div>
+        </div>
+        
+        <div class="register">
+            Register
+        </div>
+        
+        <div class="register-line"></div>
+        
+        <div class="jumbotron">
+            <div class="title">Meetup 69</div>
+            <div class="lina"></div>
+            <div class="text1">Super Pogi lang talaga ako</div>
+            <div class="text2">Hi there fans</div>
+        </div>
+        
+        <div>
+            <div class="kiersuperpogi"><div class="whitney"></div></div>
+            <div class="kiersuperpogi"><div class="whitney"></div></div>
+            <div class="kiersuperpogi"><div class="whitney"></div></div>
+        </div>
+    </body>
+</html>

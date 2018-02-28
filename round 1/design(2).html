@@ -1,0 +1,171 @@
+<hmtl>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            
+            html, body {
+                font-size: 12px;
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            
+            .pogi {
+                width: 360px;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                color: #fff;
+                background: rgba(0,0,0,0.6);
+            }
+            
+            .thumbnail {
+                margin: 20px auto;
+                width: 320px;
+                height: 360px;
+                background: yellow;
+            }
+            
+            .player {
+                margin-top: 32px;
+            }
+            
+            .player > .progress-bar {
+                margin-bottom: 48px;
+                position: relative;
+                height: 4px;
+                background: rgba(255,255,255,0.5);
+            }
+            
+            .player > .progress-bar > .progress {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 75%;
+                height: 4px;
+                background: yellow;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+            }
+            
+            .controls {
+                display: flex;
+                align-items: center;
+            }
+            
+            .controls > .action {
+                color: #fff;
+                height: 32px;
+                width: 32px;
+                font-size: 12px;
+                margin-right: 16px;
+            }
+            
+            .controls > .action:not(:last-child) {
+                margin-right: 16px;
+            }
+            
+            .controls > .action.-center {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 48px;
+                width: 48px;
+                font-size: 16px;
+                border: 1px solid #fff;
+                border-radius: 50%;
+            }
+            
+            .extra-pogi {
+                padding-left: 16px;
+                padding-right: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .extra-pogi > .action {
+                color: #fff;
+            }
+            
+            .extra-pogi > .action:first-child {
+                color: yellow;
+            }
+            
+            .label > .title {
+                color: yellow;
+                margin-bottom: 16px;
+                font-weight: 600;
+            }
+            
+            .label > .description {
+                text-transform: uppercase;
+                color: rgba(255,255,255,0,5);
+            }
+            
+            .kier-pogi {
+                padding-left: 16px;
+                padding-right: 16px;
+                display: flex;
+                align-items: center;
+            }
+            
+            .kier-pogi > .time {
+                color: rgba(255,255,255,0.5);
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="pogi">
+            <div class="thumbnail">
+                
+            </div>
+            
+            <div class="player">
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                
+                <div class="kier-pogi">
+                    <div class="timer">3:69</div>
+                    
+                    <div class="controls">
+                        <div class="action">
+                            &lt;
+                        </div>
+                    
+                        <div class="action -center">
+                            v
+                        </div>
+                    
+                        <div class="action">
+                            &gt;
+                        </div>
+                    </div>
+                
+                    <div class="timer">3:69</div>
+                </div>
+                
+                <div class="extra-pogi">
+                    <div class="action">
+                        S
+                    </div>
+                    
+                <div class="label">
+                    <div class="title">
+                        Bla bla bla blal
+                    </div>
+                    
+                    <div class="description">
+                        Kier Poigi
+                    </div>
+                </div>
+                    
+                    <div class="action">
+                        R
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</hmtl>
